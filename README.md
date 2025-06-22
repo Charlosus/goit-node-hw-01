@@ -24,4 +24,4 @@ node index.js --action remove --id <contactId>
 
 ![add](https://monosnap.com/file/9DOkhuI23ipBeuZZfA0rMPEmOoVDL9)
 
-![remove](https://api.monosnap.com/file/download?id=1eVIWIqN2ywDCp5Gq2YxQt96jSAoyO)
+![remove](https://monosnap.com/file/1eVIWIqN2ywDCp5Gq2YxQt96jSAoyO)
