@@ -23,6 +23,15 @@ export default defineConfig([
       },
     },
   },
+   {
+    // Dodaj nowy blok dla plików Node (np. plików w root lub folderze backend)
+    files: ["index.js", "contacts.js", "db/**/*.js", "m1/**/*.js"], // dopasuj ścieżki do swojego projektu
+    languageOptions: {
+      globals: globals.node, // tutaj globalne zmienne Node, w tym 'process'
+      ecmaVersion: "latest",
+      sourceType: "module",
+    },
+  },
   {
     files: ["**/*.{js,mjs,cjs,jsx}"],
     plugins: {
