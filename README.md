@@ -1,50 +1,27 @@
-# Basic React Setup with Vite and ESLint
+# Contacts CLI Project
 
-This is a starter React project using Vite as the build tool and ESLint for code linting.
+Simple Node.js CLI app to manage contacts: list, get by id, add, remove.
 
-## Included Packages
+## Usage
 
-- **react** and **react-dom** — React library and DOM renderer
-- **vite** — Fast build tool and dev server
-- **eslint** — Code linter to keep code clean and consistent
-- **@babel/eslint-parser** — ESLint parser to support modern JS and JSX syntax
-- **eslint-plugin-react** — React specific linting rules
-- **eslint-plugin-react-hooks** — Linting for React Hooks rules
-- **eslint-plugin-react-refresh** — Support for React Fast Refresh in ESLint
-- **@vitejs/plugin-react** — Vite plugin for React support
-- **prettier** — Code formatter (optional)
+Run commands with:
 
-## Getting Started
+```bash
+node index.js --action list
 
-1. Clone the repo:
-<pre> 
-git clone https://github.com/Charlosus/basic-setup.git   
-cd basic-setup
-</pre>
-Install dependencies:
+node index.js --action get --id <contactId>
 
-<pre> npm install  </pre>
+node index.js --action add --name <name> --email <email> --phone <phone>
 
-Start the development server:
+node index.js --action remove --id <contactId>
+```
 
-<pre> npm run dev  </pre>
+## Screenshots
 
-Run ESLint to check for code issues:
+![list](https://monosnap.com/file/p5M103BaSL2gg15cAdzNDa8zmVwOcr)
 
-<pre> npm run lint  </pre>
+![get](https://monosnap.com/file/fLnbw0YBiFuJYbwhjVfJaLEU7325s4)
 
-Build the project for production:
+![add](https://monosnap.com/file/9DOkhuI23ipBeuZZfA0rMPEmOoVDL9)
 
-<pre> npm run build  </pre>
-
-Preview the production build:
-
-<pre> npm run preview  </pre>
-
-Notes
-ESLint config is in eslint.config.js using the flat config system.
-
-React Fast Refresh is enabled via ESLint plugin.
-
-Adjust .eslintrc or eslint.config.js if you want to customize linting rules.
-
+![remove](https://monosnap.com/file/1eVIWIqN2ywDCp5Gq2YxQt96jSAoyO)
