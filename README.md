@@ -18,10 +18,10 @@ node index.js --action remove --id <contactId>
 
 ## Screenshots
 
-![list](https://monosnap.com/file/p5M103BaSL2gg15cAdzNDa8zmVwOcr)
+![list](./screenshots/00-list.png)
 
-![get](https://monosnap.com/file/fLnbw0YBiFuJYbwhjVfJaLEU7325s4)
+![get](./screenshots/01-get.png)
 
-![add](https://monosnap.com/file/9DOkhuI23ipBeuZZfA0rMPEmOoVDL9)
+![add](./screenshots/02-add.png)
 
-![remove](https://monosnap.com/file/1eVIWIqN2ywDCp5Gq2YxQt96jSAoyO)
+![remove](./screenshots/03-remove.png)
